@@ -11,13 +11,7 @@ public interface MSAndNetLevelService {
      * @param msAndNetLevel
      */
     public void addMSAndNetLevel(MSAndNetLevel msAndNetLevel);
-
-    /**
-     * 获取最新 amount 条[微震生,i]数据记录，
-     * @Param amount为0表示查询所有数据，大于0就查询出来相应的数据
-     * @return 最新 amount 条[微震生,i]数据记录
-     */
-    public List<MSAndNetLevel> getLatestMSAndNetLevelByAmount(int amount);
+    
 
     /**
      * 根据起始时间和结束时间查询微震数据
